@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color:rgba(3, 3, 3,2);
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid rgb(39, 38, 38);
+}
+.collapse{
+    margin-left: 20%;
+}
+
+.nav-item{
+    padding-left:20px;
+}
+
+#a{
+    color:#fff;
+    font-size: 1.1rem;
+}
+
+#a:hover{
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.material-icons{
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-light.navbar-toggler{
+    color: white;
+    border-color: white;
+}
+
+#logo{
+    height: 80px;
+    width: 100px;
+    background: transparent;
+    margin-left: 30px;
+}
+/******************************************************navbar*****************************************************/
+
+#home {
+    background-size: cover; 
+    padding: 50px 0px;
+}
+
+ 
+.content{
+    padding:160px;
+    padding-right: 600px;
+} 
+
+#h3_home{
+    font-size:50px;
+    color: white;
+}
+#p_home{
+    font-size: 18px;
+    color: white;
+}
+.btn{
+    font-size: 22px;
+    border: 2px solid skyblue;
+    background-color: chocolate;
+    color: white;
+}
+#bu{
+    background-color:black;
+    border: none;
+}
+/***************************************************home*******************************************************/
+.about{
+    background-color: black;
+    color: white;
+}
+.aboutus{
+    padding: 0px 60px;
+    display: flex;  
+    justify-content: center;
+}
+#about1{
+    text-align: center; 
+    padding: 40px 0px;
+}
+
+#about-img{
+    margin-top: 50px;
+    height:300px;
+    width: 500px;   
+    box-shadow: -2px -2px 5px 1px gray;
+}
+
+.about2{
+    padding: 50px 40px;
+}
+
+#about-special{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-bottom: 20px;
+}
+#about-coffee{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: gray;
+    padding-bottom: 5px;
+}
+#about-not{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+}
+
+/**************************************************************about***************************************/
+
+.menu{
+    background-color: black;
+}
+#menu1{
+    text-align: center; 
+    padding: 40px 0px;
+    color: white;
+    padding-top: 50px;
+}
+#img-price{
+    height: 150px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.row{
+    text-align: center;
+}
+.col-md-3{
+    color: white;
+    margin: 50px 40px;
+    border: 2px solid gray;
+    padding: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 5px 1px gray;   
+}
+.col-md-3:hover{
+    background-color:rgb(160, 131, 93);
+    color: black;
+}
+/***********************************************************menu**********************************************/
+.review{
+    background-color: black;
+}
+#review{
+    text-align: center; 
+    padding: 40px 0px;
+    color: white;
+    padding-top: 50px;
+}
+
+#img-review{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+
+}
+.col-md-4{
+    width: 380px;
+    background-color:black;
+    color: white;
+    height: 360px;
+    margin: 20px 25px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px 0px;
+    
+}
+
+#material-icons{
+    color: goldenrod;
+    font-size: 25px;
+}
+.review .row p{
+    text-align: justify;
+    padding: 0px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+/******************************************************review*******************************************/
+
+.call{
+    background-color: black;
+    padding-bottom: 80px;
+}
+#img-map{
+    height: 450px;
+    width: 500px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.call1{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 30PX;
+}
+#call-icon{
+    color: goldenrod;
+}
+#get{ 
+    text-align: center;  
+    font-weight: 700;
+    color: rgb(109, 67, 11);
+}
+.call3{
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 30px;
+    border-radius: 20px;
+}
+.call1 .call3 p{
+    font-size: large;
+}
+.call1 .call3 a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+/********************************************************contact*****************************************/
+
+
+footer{
+    background-color: #13131a;
+}
+.social{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+.iconify{
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+}
+.iconify:hover{
+    background-color: rgb(172, 113, 37);
+}
+.social a{
+    padding:10px;
+    color: blanchedalmond;
+}
+footer h3{
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    padding: 30px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    color: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************************padview**************************************/
+@media only screen and (max-width: 1000px) {
+    
+   #h3_home{
+      font-size:30px;
+      color: white;
+    }
+   #p_home{
+      font-size: 16px;
+      color: white;
+    }
+   .content{
+      padding:150px;
+      padding-right: -400px;
+    }
+    .aboutus{      
+        display: block;  
+        justify-content: center;
+    }
+   .col-md-3{
+       margin: 50px 30px;
+       color: white;
+       border: 2px solid gray;
+       padding: 20px 0px;
+       box-shadow: 1px 1px 10px 2px gray;
+    }
+   .col-md-4{
+       width: 320px;
+       background-color: black;
+       color: white;
+       height: 390px;
+       margin: 20px px;
+       border: 1px solid gray;
+       border-radius: 20px;
+       padding: 20px 0px;
+    }
+    .call1{
+        display:block;
+    }
+
+    #img-map{
+        height: 400px;
+        width: 755px;
+        border-radius: 20px;
+    }
+    
+}
+
+   
+
+/************************************************************** phoneview ************************************/
+
+
+@media only screen and (max-width: 460px){
+    
+    #h3_home{
+        font-size:28px;
+        color: white;
+    }
+    #p_home{
+        font-size:18px;
+        color: white;
+    }
+    .btn{
+        font-size: 15px;
+        border: 2px solid skyblue;
+        background-color: chocolate;
+        color: white;
+    }
+    .content{
+        padding: 40px 100px;
+        margin-top: 50px;
+    }
+    .about2{
+        padding: 50px 0px;
+    }
+    #about-special{
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        padding-bottom: 20px;
+        font-size: 18PX;
+    }
+    #about-coffee{
+       font-family: 'Times New Roman', Times, serif;
+       font-size: larger;
+       color: gray;
+       padding-bottom: 5px;
+    }
+    #about-not{
+       font-family: 'Times New Roman', Times, serif;
+       font-size: large;
+       color: white;
+    }
+    .aboutus{      
+       display: block;  
+       justify-content: center;
+    }
+    #about-img{
+        margin-left: -15px;
+       margin-top: 50px;
+       height:200px;
+       width: 250px;   
+       box-shadow: -2px -2px 5px 1px gray;
+    }
+   .col-md-3{
+       color: white;
+       border: 2px solid gray;
+       padding: 20px 0px;
+       box-shadow: 1px 1px 10px 2px gray;
+       width: 280px;     
+    
+    }       
+    .col-md-4{
+       width: 320px;
+       background-color: black;
+       color: white;
+       height: 390px;
+       margin: 20px 10px;
+       border: 1px solid gray;
+       border-radius: 20px;
+       padding: 20px 0px;
+    }
+    #img-map{
+       height: 400px;
+       width: 300px;
+       border-radius: 20px;
+    }
+    .call1{
+       display:block;
+    }
+    .call3{
+       width: 300px;
+    }
+    footer h3{
+        text-align: center;
+        font-size:large;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

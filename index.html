@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>coffee</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    
+  <link rel="stylesheet" href="css/style.css">
+  <script src="coffee.js"></script>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img id="logo" src="img/logo.jpeg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="material-icons">
+          menu
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="a" class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="a" class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="a" class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a id="a" class="nav-link" href="#review">Review</a>
+          </li>
+          <li class="nav-item">
+            <a id="a" class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"><button id="bu"
+            type="submit"><sub><span class="material-icons">
+                search
+              </span></sub></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="home" class="container-fluid" style="background-image: url(img/home-img.jpeg);">
+    <div class="content">
+      <h3 id="h3_home">Fresh coffee in the morning</h3>
+      <p id="p_home">The Powers of a man's mind are directly proportional to the quantity of coffee he drinks.</p>
+      <a href="#" class="btn">Membership card</a>
+  </div>
+  </section>
+
+
+
+
+  <section id="about" class="about container-fluid">
+    <h1 id="about1">ABOUT</h1>
+    <div class="aboutus container">
+      <div>
+        <img id="about-img" src="img/about-img.jpg" alt="about-img">
+      </div>
+      <div class="about2">
+        <h2 id="about-special">SPECIAL ABOUT COFFEE</h2>
+        <p id="about-coffee">Coffee is one of the world's most popular beverages.</p>
+        <P id="about-not">Not only can your daily cup of joe help you feel more energized, burn fat and improve physical
+          performance, it may also lower your risk of several conditions, such as type 2 diabetes, cancer and
+          Alzheimer's and Parkinson's disease. In fact, coffee may even boost longevity.</P>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="menu" class="menu container-fluid">
+    <h1 id="menu1">MENU</h1>
+    <div class="row">
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/affogato.jpg" alt="affogato">
+        <h3 id="h1-price">AFFOGATO</h3>
+        <h2>110₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/americano.jpg" alt="americano">
+        <h3 id="h1-price">AMERICANO</h3>
+        <h2>110₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/cappuccion.jpg" alt="cappuccion">
+        <h3 id="h1-price">CAPPUCCION</h3>
+        <h2>125₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/con-panna.jpg" alt="con-panna">
+        <h3 id="h1-price">CON-PANNA</h3>
+        <h2>105₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/corretto.jpg" alt="CORRETTO">
+        <h3 id="h1-price">CORRETTO</h3>
+        <h2>120₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/cortado.jpg" alt="CORTADO">
+        <h3 id="h1-price">CORTADO</h3>
+        <h2>85₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/doppio.jpg" alt="DOPPIO">
+        <h3 id="h1-price">DOPPIO</h3>
+        <h2>95₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/espresso.jpg" alt="ESPRESSO">
+        <h3 id="h1-price">ESPRESSO</h3>
+        <h2>70₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/flatwhite.jpg" alt="FLAT WHITE">
+        <h3 id="h1-price">FLAT WHITE</h3>
+        <h2>90₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/freddo.jpg" alt="FREDDO">
+        <h3 id="h1-price">FREDDO</h3>
+        <h2>115₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/irish.jpg" alt="IRISH">
+        <h3 id="h1-price">IRISH</h3>
+        <h2>105₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/latte.jpg" alt="LATTE">
+        <h3 id="h1-price">LATTE</h3>
+        <h2>80₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/macchiato.jpg" alt="MACCHIATO">
+        <h3 id="h1-price">MACCHIATO</h3>
+        <h2>100₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/mocha.jpg" alt="MOCHA">
+        <h3 id="h1-price">MOCHA</h3>
+        <h2>120₹</h2>
+      </div>
+      <div onclick="onclick1()" class="col-md-3">
+        <img id="img-price" src="img/vienna.jpg" alt="VIENNA">
+        <h3 id="h1-price">VIENNA</h3>
+        <h2>110₹</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="review">
+    <h1 id="review">REVIEW</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <img id="img-review" src="img/nasir.jpeg" alt="nasir" title="Nasir  mangalore" data-toggle="popover"><br>
+        <!-- <h2>Nasir</h2> -->
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam, excepturi eligendi officiis
+          distinctio maxime, qui esse totam enim aperiam odio vel est provident consequatur placeat voluptatum soluta
+          animi fugit?</p>
+
+      </div>
+      <div class="col-md-4">
+        <img id="img-review" src="img/raj.jpeg" alt="raj" title="Raj Channapatna" data-toggle="popover"><br>
+        <!-- <h2>Raj</h2> -->
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam, excepturi eligendi officiis
+          distinctio maxime, qui esse totam enim aperiam odio vel est provident consequatur placeat voluptatum soluta
+          animi fugit?</p>
+
+      </div>
+      <div class="col-md-4">
+        <img id="img-review" src="img/pooja.jpeg" alt="pooja" title="Pooja AndhraPradesh" data-toggle="popover"><br>
+        <!-- <h2>Pooja</h2> -->
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">star_half</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam, excepturi eligendi officiis
+          distinctio maxime, qui esse totam enim aperiam odio vel est provident consequatur placeat voluptatum soluta
+          animi fugit?</p>
+
+      </div>
+      <div class="col-md-4">
+        <img id="img-review" src="img/niveditha.jpeg" alt="niveditha" title="Niveditha Banglore"
+          data-toggle="popover"><br>
+        <!-- <h2>Niveditha</h2> -->
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam, excepturi eligendi officiis
+          distinctio maxime, qui esse totam enim aperiam odio vel est provident consequatur placeat voluptatum soluta
+          animi fugit?</p>
+
+      </div>
+      <div class="col-md-4">
+        <img id="img-review" src="img/kavya.jpg" alt="kavya" title="Kavya Banglore" data-toggle="popover"><br>
+        <!-- <h2>Kavya</h2> -->
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam, excepturi eligendi officiis
+          distinctio maxime, qui esse totam enim aperiam odio vel est provident consequatur placeat voluptatum soluta
+          animi fugit?</p>
+
+      </div>
+      <div class="col-md-4">
+        <img id="img-review" src="img/arun.jpeg" alt="Arun" title="Arun Belagavi" data-toggle="popover"><br>
+        <!-- <h2>Arun</h2> -->
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">grade</span>
+        <span id="material-icons" class="material-icons">star_half</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam, excepturi eligendi officiis
+          distinctio maxime, qui esse totam enim aperiam odio vel est provident consequatur placeat voluptatum soluta
+          animi fugit?</p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="Contact" class="call container-fluid">
+    <h1 id="review">CONTACT</h1>
+    <div class="call1">
+      <div class="call2">
+        <a href="#"><img id="img-map" src="img/map.png" alt="map"></a>
+      </div>
+
+      <div class="call3">
+        <h2 id="get">GET IN TOUCH</h2>
+        <div>
+          <p><span id="call-icon" class="material-icons">
+              <sub> location_on</sub>
+            </span>Location:</p>
+          <a href="#">
+            <p>Sri Devi Complex, 3rd floor, Gandhi Bazar, Bangalore, 560004</p>
+          </a>
+
+          <p> <span id="call-icon" class="material-icons">
+              <sub> mail </sub>
+            </span>Email:</p>
+          <a href="#">
+            <p>bk@reformax.tech</p>
+          </a>
+
+          <p> <span id="call-icon" class="material-icons">
+              <sub> call </sub>
+            </span>Call:</p>
+          <a href="#">
+            <p>+91 9916010077</p>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <footer>
+    <div class="social">
+      <a href="#"><span class="iconify" data-icon="bx:bxl-facebook-circle"></span></a>
+      <a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+      <a href="#"> <span class="iconify" data-icon="akar-icons:twitter-fill"></span></a>
+      <a href="#"> <span class="iconify" data-icon="ant-design:skype-filled"></span></a>
+      <a href="#"> <span class="iconify" data-icon="akar-icons:linkedin-fill"></span></a>
+    </div>
+    <h3>Created By <span id="name"> Mr. Akash Nispate </span> | All Rights Reserved</h3>
+  </footer>
+</body>
+
+</html>
